@@ -25,7 +25,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
+- Step 1,  I began by creating a new Resource Group to organize the resources. Once the Resource Group is created, deploy a Windows 10 VM within it, configuring the necessary settings such as VM size, credentials, and enabling monitoring or backup. During the VM creation, allow Azure to automatically create a new Virtual Network (VNet) and Subnet for network isolation and communication. Afterward, deploy a Linux (Ubuntu) VM in the same Resource Group, configuring it with appropriate settings and SSH keys. Both VMs are placed in the same VNet to enable internal communication between them.
+
+
+
+
 - Step 2
 - Step 3
 - Step 4
