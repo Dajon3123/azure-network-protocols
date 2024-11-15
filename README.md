@@ -40,8 +40,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src=https://i.imgur.com/HRWN5Rz.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+In this example, I’m using the ping command in the Windows command prompt (PowerShell) to test connectivity between two virtual machines in the cloud. The ping command sends ICMP echo requests to the target machine to check if it’s reachable. I’ve included the -4 flag to force the use of IPv4 addresses, ensuring the command resolves to the correct IP version. Additionally, the -t flag is used to make the ping run indefinitely until manually stopped, allowing for continuous monitoring of the connection. This setup helps validate network connectivity between cloud-based VMs in real time.
+
+
 <br />
 
 <p>
